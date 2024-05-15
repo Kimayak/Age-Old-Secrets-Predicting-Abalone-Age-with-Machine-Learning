@@ -5,7 +5,7 @@
 In this project, I aim to predict the age of abalones using machine learning techniques. Abalones are marine mollusks whose age can be determined by counting the rings in their shells. This project utilizes the Abalone dataset, which includes various physical measurements of abalones. By applying regression models and ensemble methods like the Voting Regressor, I strive to achieve accurate age predictions. This is important for sustainable resource management, economic valuation, and scientific research. Through feature engineering, hyperparameter optimization with Optuna, and robust cross-validation, I enhance the model's performance, ensuring reliable predictions.
 
 
-### Features:
+#### Features:
 1. **Data Preprocessing**:
 Effective preprocessing steps were employed, including the imputation of missing values and one-hot encoding for categorical variables. Numerical features were enhanced using polynomial transformations to capture non-linear relationships, ensuring that the models have a comprehensive and clean dataset to learn from.
 2. **Feature Engineering**:
@@ -21,7 +21,7 @@ The Root Mean Squared Logarithmic Error (RMSLE) metric was used to evaluate mode
 7. **Model Persistence**:
 The final model pipeline, including preprocessing steps and the trained ensemble model, was saved using joblib. This allows for easy deployment and reuse, ensuring that the model can be efficiently applied to new data without the need for retraining from scratch.
 
-### FAQs:
+#### FAQs:
 1. *What is the Abalone Dataset?* <br>
 The Abalone dataset contains physical measurements of abalones, a type of marine mollusk, and the number of rings in their shell, which indicates their age. It is often used for regression and classification tasks in machine learning.
 
